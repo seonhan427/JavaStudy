@@ -22,7 +22,6 @@ public class CalculatorLayout extends JFrame {
 		
 		GridLayout gl = new GridLayout(5,5,2,2);
 		NumberButton.setLayout(gl);
-	//	NumberButton.setSize(650,230);
 		JLabel label = new JLabel("0");
 		label.setForeground(Color.LIGHT_GRAY);
 		NumberButton.setBounds(0,30,700,270);

@@ -152,8 +152,8 @@ public class CalculatorLayout extends JFrame {
 		NumberButton.add(b25);
 		
 
-		add(Number, BorderLayout.NORTH);
-		add(NumberButton, BorderLayout.CENTER);
+		add(Number);
+		add(NumberButton);
 		
 		setVisible(true);
 	}
